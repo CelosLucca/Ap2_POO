@@ -5,7 +5,7 @@ public class Minicurso extends Evento {
     private int cargaHoraria;
     private Instrutor instrutor;
 
-    public Minicurso(String titulo, String data, String duracao, int orcamento, Instrutor instrutor) {
+    public Minicurso(String titulo, String data, String duracao, int orcamento, Instrutor instrutor, int CargaHoraria) {
         super(titulo, data, duracao, orcamento);
         this.cargaHoraria = cargaHoraria;
         this.instrutor = instrutor;
