@@ -6,7 +6,7 @@ public class Programa {
     public static void main(String[] args) {
         // pessoas responsaveis
         Instrutor instrutor1 = new Instrutor("Lucas", "lucasinstrutor@gmail.com","Desenvolvimento de Software", "ADS" );
-        Organizador Joao = new Organizador("Joao", "joaoorganizador@gmail.com", "Chefe");
+        Organizador organizador1 = new Organizador("Joao", "joaoorganizador@gmail.com", "Chefe");
 
         // local
         Sala sala1 = new Sala("Sala 1", 50, "F", "1", true);
